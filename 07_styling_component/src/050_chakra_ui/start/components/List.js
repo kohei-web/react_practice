@@ -1,9 +1,13 @@
+import { StackDivider, VStack } from "@chakra-ui/react";
+
 const List = ({todos, deleteTodo}) => {
     const complete = (id) => {
         deleteTodo(id)
     }
     return (
-        <div>
+        <VStack
+            divider={<StackDivider borderColor='gray.200' />}
+        >
             {todos.map(todo => {
                 return (
                     <div key={todo.id}>
@@ -12,7 +16,7 @@ const List = ({todos, deleteTodo}) => {
                     </div>
                 )
             })}
-        </div>
+        </VStack>
     );
 }
 

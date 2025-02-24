@@ -1,3 +1,5 @@
+/* 基本的にはコンポーネントと同名のcssファイルを作成する */
+
 .btn {
     margin: auto;
     border-radius: 9999px;

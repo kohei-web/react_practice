@@ -34,6 +34,7 @@ const Todo = () => {
 
   return (
     <>
+      <h2>Reminder</h2>
       <List todos={todos} deleteTodo={deleteTodo}/>
       <Form createTodo={createTodo}/>
     </>

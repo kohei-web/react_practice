@@ -36,7 +36,7 @@ const Case2 = () => {
         } else {
           videoRef.current.play();
         }
-        // クリックされた時にplayingの状態をTrue↔︎Flaseを変更する
+        // クリックされた時にplayingの状態をTrue↔︎Falseを変更する
         setPlaying(prev => !prev)
       }}>
         {/* playがTrueのときつまり再生中の時の文字の表示 */}

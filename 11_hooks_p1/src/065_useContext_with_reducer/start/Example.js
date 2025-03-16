@@ -15,7 +15,7 @@ const Example = () => {
   }, 0);
 
   const countUp = () => {
-    dispatch({ type: "+", step: 2 });
+    dispatch({ type: "+", step: 3 });
   };
   const countDown = () => {
     dispatch({ type: "-", step: 2 });
